@@ -1,5 +1,13 @@
 .fondoNavbar{
     background-color: black;
-    ;
+    
    
+}
+.navbar-brand{
+    text-align: right; 
+}
+p{
+    text-align: center;
+    background: #FFD95A;
+    
 }
