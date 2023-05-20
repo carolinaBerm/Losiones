@@ -14,6 +14,10 @@
 </head>
 
 <body>
+  <div class="verofertas">
+    <button type="button" class="btn btn-outline-dark">Ver Ofertas &#127873;</button>
+  </div>
+
   <!--Agrego el navbar-->
   <nav class="navbar navbar-expand-lg fondoNavbar">
     <div class="container-fluid">
@@ -55,7 +59,8 @@
   </nav>
 
   <div>
-    <p><em>¡¡Envíos a todo el país pagos contra entrega!! &#128242; <strong>+57 314 555 6667</strong> </p></em>
+    <p class="enviospais"><em>¡¡Envíos a todo el país pagos contra entrega!! &#128242; <strong>+57 314 555 6667</strong>
+    </p></em>
   </div>
 
   <!--Agrego el carrucel-->
@@ -91,14 +96,81 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <!--Agrego el boton de redes-->
+  <div>
+    <img class="redes" src="/images/whata.jpg">
+    <img class="redes" src="/images/faceb.png" alt="redes">
+    <img class="redes" src="/images/twiter.png" alt="redes">
+    <img class="redes" src="/images/instagra.png" alt="redes">
+    <img class="redes" src="/images/ubicaci.png" alt="redes">
+    <img class="redes" src="/images/correo.png" alt="redes">
+  </div>
+
+  <!--Agrego el pie de pagina-->
+  <footer id="siteFooter" class="site-footer">
+    <div class="principal-footer_wrapper">
+      <div class="re-central--small">
+        <div class="principal-footer">
+          <div class="footer__block footer__collapse">
+            <h6 class="footer__title footwer__collapse--title">Ayuda</h6>
+
+            <ul class="footer__list footer__collapse--content"
+              style="overflow: hildden; display: block;  list-style: none;">
+              <li class="items">
+                <a href="/pagPrin1.html">Contacto</a>
+              </li>
+              <li class="items">
+                <a href="/pagPrin1.html">Política devolución.</a>
+              </li>
+              <li class="items">
+                <a href="/pagPrin1.html">Política de envíos.</a>
+              </li>
+              <li class="items">
+                <p>Metodos de pago:</p>
+              </li>
+              <li class="items">
+                <img class="medios-depago" src="/images/mastercard-logo-7.png"
+                  style="width: 30px; display: inline-block;">
+                <img class="medios-depago" src="/images/logo_pse_colombia.png"
+                  style="width: 30px; display: inline-block;">
+              </li>
+            </ul>
+            <ul>
+              <form class="formulario">
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+
+                <label for="correoelectronico">Correo Eléctronico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required
+                  placeholder="email@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+              </form>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
 
 
 
-<!--Agrego el pie de pagina-->
-  <footer>
-    <img src="fondoneg.png">
-    <p class="copyright">&copy Copyright Barbería Alura - 2020</p>
- </footer>
+
+  <div style="position: fixed;bottom: 10px;right: 10px; width: 70px;z-index: index 100;">
+    <a href="https://wa.me/573145556667">
+      <img src="images/whatsapp.png">
+    </a>
+
+  </div>
 
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
