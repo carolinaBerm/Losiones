@@ -22,7 +22,7 @@
   <nav class="navbar navbar-expand-lg fondoNavbar">
     <div class="container-fluid">
 
-      <a class="navbar-logo" href="#"><img src="images/logo2.png" alt="" width="110px" ></a>
+      <a class="navbar-logo" href="#"><img src="images/logo2.png" alt="" width="110px"></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -107,53 +107,73 @@
   </div>
 
   <!--Agrego el pie de pagina-->
+
   <footer id="siteFooter" class="site-footer">
     <div class="principal-footer_wrapper">
       <div class="re-central--small">
         <div class="principal-footer">
           <div class="footer__block footer__collapse">
-            
 
-            <ul class="footer__list footer__collapse--content"
-              style="overflow: hildden; display: block;  list-style: none;">
-              <h6 class="footer__title footwer__collapse--title">Ayuda</h6>
-              <li class="items">
-                <a href="/pagPrin1.html">Contacto</a>
-              </li>
-              <li class="items">
-                <a href="/pagPrin1.html">Política devolución.</a>
-              </li>
-              <li class="items">
-                <a href="/pagPrin1.html">Política de envíos.</a>
-              </li>
-              <li class="items">
-                <p>Metodos de pago:</p>
-              </li>
-              <li class="items">
-                <img class="medios-depago" src="./images/master.JPG"
-                  style="width: 30px; display: inline-block;">
-                <img class="medios-depago" src="./images/psee.JPG"
-                  style="width: 30px; display: inline-block;">
-              </li>
-            </ul>
-            <ul>
-              <form class="formulario">
-                <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido" class="input-padron" required>
+            <div class="container px-4 text-center">
+              <div class="row gx-5">
+                <div class="col">
+                  <div class="p-3">
 
-                <label for="correoelectronico">Correo Eléctronico</label>
-                <input type="email" id="correoelectronico" class="input-padron" required
-                  placeholder="email@dominio.com">
+                    <ul class="footer__list footer__collapse--content"
+                      style="overflow: hildden; display: block;  list-style: none;">
+                      <h6 class="footer__title footwer__collapse--title">Ayuda</h6>
+                      <li class="items">
+                        <a href="/pagPrin1.html">Contacto</a>
+                      </li>
+                      <li class="items">
+                        <a href="/pagPrin1.html">Política devolución.</a>
+                      </li>
+                      <li class="items">
+                        <a href="/pagPrin1.html">Política de envíos.</a>
+                      </li>
+                      <li class="items">
+                        <p>Metodos de pago:</p>
+                      </li>
+                      <li class="items">
+                        <img class="medios-depago" src="./images/master.JPG"
+                          style="width: 30px; display: inline-block;">
+                        <img class="medios-depago" src="./images/psee.JPG" style="width: 30px; display: inline-block;">
+                      </li>
+                    </ul>
+                  </div>
+                  </li>
 
-                <label for="telefono">Teléfono</label>
-                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                </div>
 
-                <label for="mensaje">Mensaje</label>
-                <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
 
-                <input type="submit" value="Enviar formulario" class="enviar">
-              </form>
-            </ul>
+
+                <div class="col">
+                  <div class="p-3">
+                    <ul>
+                      <form class="formulario">
+                        <label for="nombreapellido">Nombre y Apellido</label>
+                        <input type="text" id="nombreapellido" class="input-padron" required>
+
+                        <label for="correoelectronico">Correo Eléctronico</label>
+                        <input type="email" id="correoelectronico" class="input-padron" required
+                          placeholder="email@dominio.com">
+
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+
+                        <input type="submit" value="Enviar formulario" class="enviar">
+                      </form>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
           </div>
 
         </div>
