@@ -31,14 +31,14 @@ footer{
     min-height: 25px;
     position: relative;
     z-index: 100;
-    background-color: #ffffff;
+ 
     font-size: 0.6875rem;
     width: 100%;
     min-width: 240px;
 }
 .principal-footer__wrapper {
     color: #221D1D;
-    background-color: #fff;
+    
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;

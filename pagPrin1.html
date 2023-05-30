@@ -20,7 +20,7 @@
 
   <!--Agrego el navbar-->
   <nav class="navbar navbar-expand-lg fondoNavbar">
-    <div class="container-fluid">
+    <div class="container-fluid ">
 
       <a class="navbar-logo" href="#"><img src="images/logo2.png" alt="" width="110px"></a>
 
@@ -29,28 +29,30 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent ">
 
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
           <li class="nav-item">
-            <i class="bi bi-gender-female" style="color: pink; font-size: 34px ;"></i>
+            <i class="bi bi-gender-female p-3" style="color: pink; font-size: 34px ;"></i>
           </li>
-          <hr>
+
 
           <li class="nav-item">
-            <i class="bi bi-gender-male" style="color: blue; font-size: 34px"></i>
+            <i class="bi bi-gender-male p-3" style="color: blue; font-size: 34px"></i>
           </li>
 
           <form class="d-flex" role="Buscar">
             <input class="form-control me-2" type="Buscar" placeholder="&#128270 Buscar" aria-label="Buscar">
           </form>
+          <div class="float-right" style="float: right; position: relative;;">
+            <a class="iconos" href="#"><img src="images/inicio.png" alt="" width="50px"></a>
 
-          <a class="iconos" href="#"><img src="images/inicio.png" alt="" width="50px"></a>
+            <a class="iconos" href="#"><img src="images/usuario.png" alt="" width="50px"></a>
 
-          <a class="iconos" href="#"><img src="images/usuario.png" alt="" width="50px"></a>
+            <a class="iconos" href="#"><img src="images/carritocompras.png" alt="" width="50px"></a>
 
-          <a class="iconos" href="#"><img src="images/carritocompras.png" alt="" width="50px"></a>
+          </div>
 
 
         </ul>
@@ -96,6 +98,39 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+    <!--Agrego el mujer/hombre-->
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="./images/mujer.jpg" class="card-img-top" alt="..." width="900px" height="200px">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="./images/hombre.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="#" class="btn btn-primary">Button</a>       
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+
+
+
+
+
   <!--Agrego el boton de redes-->
   <div>
     <img class="redes" src="./images/whata.jpg" alt="redes" width="50px">
@@ -115,13 +150,13 @@
           <div class="footer__block footer__collapse">
 
             <div class="container px-4 text-center">
-              <div class="row gx-5">
+              <div class="row gx-5 ">
                 <div class="col">
                   <div class="p-3">
 
                     <ul class="footer__list footer__collapse--content"
                       style="overflow: hildden; display: block;  list-style: none;">
-                      <h6 class="footer__title footwer__collapse--title">Ayuda</h6>
+                      <h6 class="footer__title footwer__collapse--title">Información</h6>
                       <li class="items">
                         <a href="/pagPrin1.html">Contacto</a>
                       </li>
@@ -145,23 +180,21 @@
 
                 </div>
 
-
-
                 <div class="col">
                   <div class="p-3">
                     <ul>
                       <form class="formulario">
-                        <label for="nombreapellido">Nombre y Apellido</label>
+                        <label for="nombreapellido">Nombre y Apellido:</label>
                         <input type="text" id="nombreapellido" class="input-padron" required>
 
-                        <label for="correoelectronico">Correo Eléctronico</label>
+                        <label for="correoelectronico">Correo Eléctronico:</label>
                         <input type="email" id="correoelectronico" class="input-padron" required
                           placeholder="email@dominio.com">
 
                         <label for="telefono">Teléfono</label>
-                        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX"> <br>
 
-                        <label for="mensaje">Mensaje</label>
+                        <label for="mensaje">Mensaje:</label>
                         <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
 
                         <input type="submit" value="Enviar formulario" class="enviar">
@@ -171,7 +204,6 @@
                 </div>
               </div>
             </div>
-
 
 
           </div>
