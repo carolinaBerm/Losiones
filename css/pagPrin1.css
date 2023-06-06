@@ -1,26 +1,50 @@
+
 .verofertas{
     text-align: center;
-    background: #FFD95A;
-    padding: 10px;
+    background: white;
+    padding: 8px;
 
 }
+
 .fondoNavbar{
     background-color: black;
     padding-left: 15px; 
     padding-right: 15px;
-    
-   
+       
+}
+.color-menu{
+    color:white;
+}
+
+
+.genero{
+    text-align: center;
 }
 .iconos{
     text-align: right; 
 
 }
-.enviospais{
+.redes-sociales{
     text-align: center;
-    background: #FFD95A;
-    margin: 0;
+    padding: 5%;
 
 }
+.enviospais{
+    text-align: center;
+    background: #EEEEEE;
+    margin: 0;
+}
+.elige-fragancia{
+    padding: 40px;
+   
+}
+.compra-linea{
+    text-align: center;
+    padding: 20px;
+    background: #EEEEEE;
+}
+
+
 footer{
     text-align: center;
     background: #EEEEEE;
@@ -120,5 +144,7 @@ p {
     line-height: 1.5;
 }
 
-
+.gratis{
+    text-align: center;
+}
 
